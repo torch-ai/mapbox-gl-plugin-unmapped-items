@@ -1,7 +1,6 @@
 import mapboxgl, { IControl, Map as MapboxMap } from "mapbox-gl";
 import "./index.css";
 
-// TODO someday this should just be a plugin via NPM. Might do it myself
 export interface IMapboxUnmappedItemsControl {
   renderButton?: (count: number) => Promise<HTMLElement>;
   renderHeading?: (items: any[]) => Promise<HTMLElement>;
