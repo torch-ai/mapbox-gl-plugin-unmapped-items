@@ -1,5 +1,6 @@
 // import typescript from '@rollup/plugin-typescript';
 import typescript from "rollup-plugin-typescript2";
+import postcss from 'rollup-plugin-postcss';
 import pkg from "./package.json";
 
 const dependencies = Object.keys(pkg.dependencies || {});
@@ -23,6 +24,7 @@ export default {
     },
   ],
   plugins: [
+    postcss(),
     typescript({
       rollupCommonJSResolveHack: true,
       clean: true,
