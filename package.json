@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@types/jest": "^24.0.24",
+    "@types/mapbox-gl": "^1.10.2",
     "dotenv": "^8.2.0",
     "jest": "^25.1.0",
     "prettier": "^2.0.5",
