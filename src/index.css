@@ -1,0 +1,41 @@
+.mapboxgl-unmapped-ctrl {
+  display: none;
+  position: relative;
+  color: #000;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.mapboxgl-unmapped-ctrl--show {
+  display: block;
+}
+
+.mapboxgl-unmapped-ctrl--open {
+  overflow-y: auto;
+}
+
+.mapboxgl-unmapped-items-counter {
+  display: none !important;
+}
+
+.mapboxgl-unmapped-items-counter--show {
+  display: block !important;
+}
+
+.mapboxgl-unmapped-items-elements {
+  display: none;
+  padding: 0.5rem;
+}
+
+.mapboxgl-unmapped-items-elements--show {
+  display: block;
+  overflow-y: auto;
+}
+
+.mapboxgl-unmapped-items-heading {
+  margin-bottom: 0.5rem;
+}
+
+.mapboxgl-unmapped-items-element {
+  padding: 0.25rem 0;
+}
