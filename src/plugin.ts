@@ -126,7 +126,6 @@ export class MapboxUnmappedItemsControl implements IControl {
     }
 
     this.container.classList.remove("mapboxgl-unmapped-ctrl--show");
-    this.buttonElement.innerHTML = "";
     this.itemsElement.innerHTML = "";
     this.itemsElement.classList.remove(
       "mapboxgl-unmapped-items-elements--show"
@@ -147,6 +146,7 @@ export class MapboxUnmappedItemsControl implements IControl {
     }
 
     const countElement = await this.options.renderButton(this.items.length);
+    this.buttonElement.innerHTML = "";
     this.buttonElement!.append(countElement);
     this.buttonElement!.classList.add("mapboxgl-unmapped-items-counter--show");
     return this.buttonElement;

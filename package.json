@@ -1,6 +1,6 @@
 {
   "name": "@torch-ai/mapbox-gl-plugin-unmapped-items",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides a flexible system for displaying a count as list with reasons of items that could not be added to the map",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
